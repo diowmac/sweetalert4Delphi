@@ -2,21 +2,21 @@
 
 SweetAlert4Delphi é um componente para Delphi que simula as funcionalidades do famoso SweetAlert da web, permitindo criar alertas elegantes e dinâmicos em aplicações Delphi de forma simples e intuitiva.
 
-Configuração do Projeto
+##Configuração do Projeto
 
-Adicione as units ao projeto:
+**Adicione as units ao projeto:**
 Inclua os arquivos necessários no seu projeto Delphi.
 
-Inclua a unit AlertManager apenas onde for usar:
+**Inclua a unit AlertManager apenas onde for usar:**
 
 uses
   AlertManager;
 
-Métodos e Uso
+**Métodos e Uso**
 
 A classe TAlertManager oferece métodos para exibir diferentes tipos de alertas. Veja os exemplos abaixo:
 
-1. Confirmação de Ação
+1. **Confirmação de Ação**
 
 Use o método Confirm para solicitar uma confirmação do usuário antes de executar uma ação.
 
@@ -25,25 +25,25 @@ begin
   // Executa a ação
 end;
 
-2. Alerta Simples
+2. **Alerta Simples**
 
 Exiba uma mensagem de alerta para o usuário:
 
 TAlertManager.Instance.Alert('Atenção', 'Pendências precisam ser ajustadas!');
 
-3. Erro
+3. **Erro**
 
 Informe ao usuário que ocorreu um erro:
 
 TAlertManager.Instance.Error('Oopss!', 'Encontramos um erro!');
 
-4. Sucesso
+4. **Sucesso**
 
 Exiba uma mensagem de sucesso após uma operação bem-sucedida:
 
 TAlertManager.Instance.Success('Hoo! Parabéns', 'Operação executada com sucesso!');
 
-Benefícios
+**Benefício**s
 
 Interface amigável e elegante para comunicação com o usuário.
 
@@ -51,7 +51,7 @@ Fácil integração com aplicações Delphi.
 
 Métodos simples e intuitivos para exibir diferentes tipos de mensagens.
 
-Instalação
+**Instalação**
 
 Adicione os arquivos do componente ao seu projeto.
 
@@ -59,7 +59,7 @@ Certifique-se de incluir a unit AlertManager no uses apenas onde os alertas ser�
 
 Compile e aproveite os alertas estilizáveis na sua aplicação.
 
-Exemplo Completo
+**Exemplo Completo**
 
 Segue um exemplo prático de uso dos principais métodos:
 
@@ -78,9 +78,8 @@ begin
   end;
 end;
 
-Licença
+**Licença**
 
 Este componente é distribuído sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
 
 Aproveite o SweetAlert4Delphi para melhorar a experiência do usuário nas suas aplicações!
-
